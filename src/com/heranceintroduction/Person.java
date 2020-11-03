@@ -38,4 +38,15 @@ public class Person {
     public void setCpf(int cpf) {
         this.cpf = cpf;
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", sex=" + sex +
+                ", cpf=" + cpf +
+                ", money=" + money +
+                '}';
+    }
 }

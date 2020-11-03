@@ -6,10 +6,12 @@ public class Student extends Person {
 
     public void cancelRegistration() {
         System.out.println("Registration canceled successfully");
+        this.setRegistration(0);
     }
 
-    public void reopenRegistration() {
+    public void reopenRegistration(int registration) {
         System.out.println("Registration reopened successfully");
+        this.setRegistration(registration);
     }
 
     public void payMonthlyFee() {

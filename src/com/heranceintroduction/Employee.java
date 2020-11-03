@@ -1,6 +1,6 @@
 package com.heranceintroduction;
 
-public class Employee {
+public class Employee extends Person {
     private String sector;
     private float salary;
     private boolean working;
