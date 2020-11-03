@@ -1,5 +1,7 @@
-package com.heranceintroduction;
+package com.heranceintroduction.worker;
 
-public class Visitor extends Person {
+import com.heranceintroduction.progenitor.Person;
+
+public final class Visitor extends Person {
 
 }

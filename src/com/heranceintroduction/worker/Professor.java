@@ -1,4 +1,6 @@
-package com.heranceintroduction;
+package com.heranceintroduction.worker;
+
+import com.heranceintroduction.progenitor.Person;
 
 public class Professor extends Person {
     private String speciality;

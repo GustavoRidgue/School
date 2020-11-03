@@ -1,11 +1,11 @@
-package com.heranceintroduction;
+package com.heranceintroduction.progenitor;
 
 public abstract class Person {
-    String name;
-    int age;
-    char sex;
-    int cpf;
-    private float money;
+    protected String name;
+    protected int age;
+    protected char sex;
+    protected int cpf;
+    protected float money;
 
     public void makeBirthday() {
         this.age++;

@@ -1,4 +1,6 @@
-package com.heranceintroduction;
+package com.heranceintroduction.student;
+
+import com.heranceintroduction.progenitor.Person;
 
 public class Student extends Person {
     private int registration;
@@ -15,7 +17,8 @@ public class Student extends Person {
     }
 
     public void payMonthlyFee() {
-        //this.money -= 50;
+        this.money -= 150;
+        System.out.println("Student tuition payment successfully paid");
     }
 
     public int getRegistration() {

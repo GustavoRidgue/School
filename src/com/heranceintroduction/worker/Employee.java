@@ -1,4 +1,6 @@
-package com.heranceintroduction;
+package com.heranceintroduction.worker;
+
+import com.heranceintroduction.progenitor.Person;
 
 public class Employee extends Person {
     private String sector;
